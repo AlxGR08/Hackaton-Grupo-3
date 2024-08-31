@@ -15,4 +15,7 @@ def division():
 
 division()
 
+def multiplicar(a, b):
+    return a * b
+=======
 
