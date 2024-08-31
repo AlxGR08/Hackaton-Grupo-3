@@ -31,7 +31,11 @@ def main():
         # Solicita al usuario que ingrese una operación
         n = input("Ingrese una operación (o presione 'c' para borrar): ")
 
-        lista = n.split()
+        palabra = ""
+        for letra in n:
+            if letra != "(" and letra != ")":
+                palabra+=letra
+        lista = palabra.split()
         nro1 = int(lista[0])
         nro2 = int(lista[2])
         operador = lista[1]
