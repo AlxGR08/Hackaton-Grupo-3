@@ -1,3 +1,8 @@
+#3-resta-anel
+def resta(a, b):
+    r = a-b
+    return r
+
 def division():
     a = float(input("Ingrese el primer número (dividendo): "))
     b = float(input("Ingrese el segundo número (divisor): "))
@@ -9,4 +14,5 @@ def division():
         print(f"El resultado de {a} dividido por {b} es: {resultado}")
 
 division()
+
 
