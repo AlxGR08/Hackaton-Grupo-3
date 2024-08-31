@@ -1,5 +1,5 @@
-def multiplicacion(a, b):
-    r = a*b
+def resta(a, b):
+    r = a-b
     return r
 
 
